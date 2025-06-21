@@ -63,16 +63,16 @@ else
     exit 1
 fi
 
+# Atualiza o cache de ícones e temas
+echo "Atualizando o cache de ícones e temas..."
+gtk-update-icon-cache ~/.local/share/icons/McMuse-blue-dark 2>/dev/null
+gtk-update-icon-cache /usr/share/icons/McMuse-blue-dark 2>/dev/null
+
 # Setando as configs:
     gsettings set org.gnome.desktop.interface cursor-theme "Afterglow-cursors"
     gsettings set org.gnome.desktop.interface icon-theme "McMuse-blue-dark"
     gsettings set org.gnome.desktop.interface gtk-theme "Reversal"
     gsettings set org.gnome.shell.extensions.user-theme name "Reversal"
-
-# Atualiza o cache de ícones e temas
-echo "Atualizando o cache de ícones e temas..."
-gtk-update-icon-cache ~/.local/share/icons/McMuse-blue-dark 2>/dev/null
-gtk-update-icon-cache /usr/share/icons/McMuse-blue-dark 2>/dev/null
 
 # -------------------------------------------------- Wallpaper -----------------------------------------------------------#
 # Define variáveis
