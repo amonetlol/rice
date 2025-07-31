@@ -76,9 +76,11 @@ gtk-update-icon-cache /usr/share/icons/McMuse-blue-dark 2>/dev/null
 
 # -------------------------------------------------- Wallpaper -----------------------------------------------------------#
 # Define variáveis
-WALLPAPER_URL="https://raw.githubusercontent.com/amonetlol/wallpaper-galgadot/main/Gal-Gadot-0058.jpg"
+# WALLPAPER_URL="https://raw.githubusercontent.com/amonetlol/wallpaper-galgadot/main/Gal-Gadot-0058.jpg"
+# DEST_FILE="$DEST_DIR/Gal-Gadot-0058.jpg"
+WALLPAPER_URL="https://raw.githubusercontent.com/amonetlol/rice/main/0130.jpg"
 DEST_DIR="$HOME/Imagens/Wallpapers"
-DEST_FILE="$DEST_DIR/Gal-Gadot-0058.jpg"
+DEST_FILE="$DEST_DIR/0130.jpg"
 
 # 1. Verifica e cria a pasta ~/Imagens/Wallpapers, se necessário
 echo "Verificando a pasta $DEST_DIR..."
