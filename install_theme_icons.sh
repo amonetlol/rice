@@ -15,4 +15,9 @@ unzip -o /tmp/themes.zip -d ~/.themes
 # Limpeza opcional dos arquivos temporários
 rm /tmp/icons.zip /tmp/themes.zip
 
+gsettings set org.gnome.desktop.interface cursor-theme 'Afterglow-cursors'
+gsettings set org.gnome.desktop.interface icon-theme 'McMuse-blue-dark'
+gsettings set org.gnome.desktop.interface gtk-theme 'Reversal'
+gsettings set org.gnome.shell.extensions.user-theme name 'Reversal'
+
 echo "Instalação concluída!"
